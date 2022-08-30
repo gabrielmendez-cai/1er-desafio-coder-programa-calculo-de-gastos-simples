@@ -17,4 +17,19 @@ let precioFinal      = resta(suma(suma(productoPrecio2,iva(productoPrecio2)),sum
 
 alert(precioFinal);
 
-alert ("gracias por su compra")
+
+let cuotas = prompt("te gustaria pagar en cuotas? tenemos promo en 6")
+if (cuotas === "si"){
+alert ("dividimos en 6")
+let cuotasPrecioFinal = divid(precioFinal,6);
+alert (cuotasPrecioFinal + " pesos")
+}
+else (cuotas === "no") 
+alert ("perfecto son " + precioFinal + " pesos")
+;
+
+
+
+
+
+
