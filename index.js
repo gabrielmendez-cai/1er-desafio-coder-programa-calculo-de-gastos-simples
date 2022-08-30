@@ -23,10 +23,35 @@ if (cuotas === "si"){
 alert ("dividimos en 6")
 let cuotasPrecioFinal = divid(precioFinal,6);
 alert (cuotasPrecioFinal + " pesos")
-}
-else (cuotas === "no") 
+}else 
 alert ("perfecto son " + precioFinal + " pesos")
 ;
+
+
+//inicio de sesion de una pagina, se debera decidir si es usuario o quisiere entrar como invitado
+
+
+
+let ingresoModo = prompt ("ingresas como usuario o invitado?");
+if (ingresoModo.toLocaleLowerCase() === "usuario"){
+    alert("debes registrarte")
+}else{
+    if(ingresoModo.toLocaleLowerCase ()=== "invitado")
+  alert ("bienvenido invitado")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
